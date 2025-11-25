@@ -10,7 +10,6 @@
 - `train_model.py`: Script huấn luyện mô hình Naive Bayes.  
 - `flu_symptoms_dataset.csv`: Dữ liệu dùng để huấn luyện.  
 - `flu_pipeline.joblib`: Mô hình pipeline đã huấn luyện và lưu bằng `joblib`.  
-- `requirements.txt`: Danh sách các package Python cần thiết.  
 - `README.md`: Tệp hướng dẫn này.
 
 ---
@@ -28,15 +27,4 @@
 
 ---
 
-## 🧪 Cách dùng
-
-### 1. Cài đặt môi trường
-
-Tạo virtual environment và cài các thư viện cần thiết:
-
-```bash
-python.exe -m venv venv
-python.exe\venv\Scripts\activate
-
-pip install pandas scikit-learn streamlit joblib
 
