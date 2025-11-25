@@ -1,0 +1,42 @@
+# Flu Diagnosis App
+
+Ứng dụng **Streamlit** kết hợp **Naive Bayes** để chẩn đoán khả năng bị cúm dựa trên triệu chứng và thông tin bệnh nhân.
+
+---
+
+## 📁 Cấu trúc dự án
+
+- `app.py`: Ứng dụng Streamlit – giao diện người dùng để nhập triệu chứng và tiên đoán.  
+- `train_model.py`: Script huấn luyện mô hình Naive Bayes.  
+- `flu_symptoms_dataset.csv`: Dữ liệu dùng để huấn luyện.  
+- `flu_pipeline.joblib`: Mô hình pipeline đã huấn luyện và lưu bằng `joblib`.  
+- `requirements.txt`: Danh sách các package Python cần thiết.  
+- `README.md`: Tệp hướng dẫn này.
+
+---
+
+## 📊 Dữ liệu
+
+- Dữ liệu được sử dụng từ Kaggle: **Disease Symptoms and Patient Profile Dataset**  
+- Link Kaggle:  
+  [https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset](https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset?utm_source=chatgpt.com)  
+- Bộ dữ liệu bao gồm các thông tin như triệu chứng (`fever`, `cough`, `fatigue`, `difficulty_breathing`), tuổi, giới tính và kết quả (`outcome_variable`).  
+- Dữ liệu được tiền xử lý như sau:
+  - Nhóm tuổi được chia thành "Trẻ em", "Thanh niên", "Trung niên", "Người già".  
+  - Triệu chứng dạng nhị phân (`Yes/No`) được chuyển đổi sang dạng số (`0/1`).  
+  - Biến phân loại như giới tính và nhóm tuổi được One-Hot Encode.
+
+---
+
+## 🧪 Cách dùng
+
+### 1. Cài đặt môi trường
+
+Tạo virtual environment và cài các thư viện cần thiết:
+
+```bash
+python.exe -m venv venv
+python.exe\venv\Scripts\activate
+
+pip install pandas scikit-learn streamlit joblib
+
