@@ -27,7 +27,7 @@
 
 ---
 
-## Hướng dẫn chạy chương trình
+## 🎯Hướng dẫn chạy chương trình
 
 - Chạy "**train_model.py**"
 - Mô hình được lưu vào file "**flu_pipeline.joblib**"
