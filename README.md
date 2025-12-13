@@ -27,4 +27,9 @@
 
 ---
 
+## Hướng dẫn chạy chương trình
 
+- Chạy**train_model.py**
+- Mô hình được lưu vào file**flu_pipeline.joblib**
+- Mở terminal chạy streamlit: gõ lệnh **streamlit run app.py**
+- Giờ bạn có thể thấy ứng dụng Streamlit chạy trên trình duyệt của bạn tại Local URL: **http://localhost:8501**
