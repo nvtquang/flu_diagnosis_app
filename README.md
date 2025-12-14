@@ -1,9 +1,7 @@
 # Flu Diagnosis App
 
 Ứng dụng **Streamlit** kết hợp **Naive Bayes** để chẩn đoán khả năng bị cúm dựa trên triệu chứng và thông tin bệnh nhân.
-
 ---
-
 ## 📁 Cấu trúc dự án
 
 - `app.py`: Ứng dụng Streamlit – giao diện người dùng để nhập triệu chứng và tiên đoán.  
@@ -11,9 +9,7 @@
 - `flu_symptoms_dataset.csv`: Dữ liệu dùng để huấn luyện.  
 - `flu_pipeline.joblib`: Mô hình pipeline đã huấn luyện và lưu bằng `joblib`.  
 - `README.md`: Tệp hướng dẫn này.
-
 ---
-
 ## 📊 Dữ liệu
 
 - Dữ liệu được sử dụng từ Kaggle: **Disease Symptoms and Patient Profile Dataset**  
@@ -24,9 +20,7 @@
   - Nhóm tuổi được chia thành "Trẻ em", "Thanh niên", "Trung niên", "Người già".  
   - Triệu chứng dạng nhị phân (`Yes/No`) được chuyển đổi sang dạng số (`0/1`).  
   - Biến phân loại như giới tính và nhóm tuổi được One-Hot Encode.
-
 ---
-
 ## 🎯Hướng dẫn chạy chương trình
 
 - Chạy "**train_model.py**"
