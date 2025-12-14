@@ -1,6 +1,7 @@
 # Flu Diagnosis App
 
 Ứng dụng **Streamlit** kết hợp **Naive Bayes** để chẩn đoán khả năng bị cúm dựa trên triệu chứng và thông tin bệnh nhân.
+
 ---
 ## 📁 Cấu trúc dự án
 
